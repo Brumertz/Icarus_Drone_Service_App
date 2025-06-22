@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Icarus_Drone_Service_App</name>
+    </assembly>
+    <members>
+        <member name="T:Icarus_Drone_Service_App.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Icarus_Drone_Service_App.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml.
+            Hosts the UI for adding, editing, processing and removing drone service jobs.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Icarus_Drone_Service_App.MainWindow"/> class,
+            hooks up cost validation, and refreshes all views.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.ValidateServiceCost(System.Object,System.Windows.Input.TextCompositionEventArgs)">
+            <summary>
+            6.10: Validates that <paramref name="e"/> only contains digits and up to two decimal places.
+            Prevents negative input.
+            </summary>
+            <param name="sender">The cost TextBox.</param>
+            <param name="e">Text composition event arguments.</param>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.GetServicePriority">
+            <summary>
+            6.7: Returns the currently selected service priority.
+            </summary>
+            <returns>“Express” if the express radio button is checked; otherwise “Regular”.</returns>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.GetServicePriority(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            No‐op handler so the XAML Checked event can point here without surcharge.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.UpdateNextTagDisplay">
+            <summary>
+            Updates the <see cref="F:Icarus_Drone_Service_App.MainWindow.numServiceTag"/> control to show the next available tag.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.RefreshListViews">
+            <summary>
+            6.8,6.9,6.2–6.4: Rebinds all three collection views:
+            Regular, Express, and Finished.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.AddNewItem(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            6.5,6.6,6.17: Handles the Add New Item / Save Changes button click.
+            Validates all fields, applies 15% surcharge for express on enqueue,
+            and then clears the form and refreshes views.
+            </summary>
+            <param name="sender">The Add/Edit button.</param>
+            <param name="e">Routed event arguments.</param>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.RegularSelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            6.12: Resets the regular‐confirmation flag when selection changes.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.ExpressSelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            6.13: Resets the express‐confirmation flag when selection changes.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.LoadForEdit(Icarus_Drone_Service_App.Models.Drone)">
+            <summary>
+            Populates the form for editing the given <paramref name="d"/>.
+            If it’s Express, shows the base cost (ServiceCost / 1.15).
+            </summary>
+            <param name="d">The <see cref="T:Icarus_Drone_Service_App.Models.Drone"/> to load into the form.</param>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.RegularService_Click(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            6.12: Handles double-click on a regular queue row to load for edit.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.ExpressService_Click(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            6.13: Handles double-click on an express queue row to load for edit.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.ProcessRegular(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            6.14: Two-step confirmation then moves the selected Regular drone to finished.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.ProcessExpress(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            6.15: Two-step confirmation then moves the selected Express drone to finished.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.FinishedList_DoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            6.16: Handles double-click on a finished list row to confirm and delete that drone.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.ClearForm">
+            <summary>
+            6.17: Clears all input textboxes and resets priority to Regular.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.RemoveFromQueue(System.Collections.Generic.Queue{Icarus_Drone_Service_App.Models.Drone},Icarus_Drone_Service_App.Models.Drone)">
+            <summary>
+            Helper to remove a single <paramref name="target"/> from a queue in-place.
+            </summary>
+            <param name="queue">The queue to remove from.</param>
+            <param name="target">The <see cref="T:Icarus_Drone_Service_App.Models.Drone"/> to remove.</param>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Icarus_Drone_Service_App.Models.Drone">
+            <summary>
+            Represents a single drone service request, including client,
+            model, tag, problem description, cost, and priority.
+            </summary>
+        </member>
+        <member name="P:Icarus_Drone_Service_App.Models.Drone.ClientName">
+            <summary>
+            Gets or sets the client’s name, formatted as Title Case.
+            </summary>
+        </member>
+        <member name="P:Icarus_Drone_Service_App.Models.Drone.DroneModel">
+            <summary>
+            Gets or sets the drone model identifier.
+            </summary>
+        </member>
+        <member name="P:Icarus_Drone_Service_App.Models.Drone.ServiceTag">
+            <summary>
+            Gets or sets the numeric service tag (100–900).
+            </summary>
+        </member>
+        <member name="P:Icarus_Drone_Service_App.Models.Drone.ServiceProblem">
+            <summary>
+            Gets or sets the problem description, formatted in Sentence Case.
+            </summary>
+        </member>
+        <member name="P:Icarus_Drone_Service_App.Models.Drone.ServiceCost">
+            <summary>
+            Gets or sets the service cost, automatically rounded to two decimals.
+            </summary>
+        </member>
+        <member name="P:Icarus_Drone_Service_App.Models.Drone.ServicePriority">
+            <summary>
+            Gets or sets the priority: “Regular” or “Express”.
+            </summary>
+        </member>
+        <member name="M:Icarus_Drone_Service_App.Models.Drone.Display">
+            <summary>
+            Returns a single-line string summarizing all fields of this Drone.
+            </summary>
+            <returns>A formatted string containing Tag, Client, Model, Problem, Cost, and Priority.</returns>
+        </member>
+    </members>
+</doc>

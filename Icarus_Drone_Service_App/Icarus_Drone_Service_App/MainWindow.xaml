@@ -1,0 +1,256 @@
+﻿<!-- <summary>
+  MainWindow.xaml: Defines the main window for the Icarus Drone Service application,
+  containing input controls, service queues, and a status bar.
+</summary>-->
+<Window
+    x:Class="Icarus_Drone_Service_App.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    Title="Icarus Drone Service"
+    Width="900"
+    Height="650">
+    <!-- <summary>
+      DockPanel organizes the status bar at the bottom and the main grid above.
+    </summary>-->
+    <DockPanel>
+        <!-- <summary>
+          StatusBar shows feedback messages to the user.
+        </summary>-->
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock Name="statusBarText" />
+        </StatusBar>
+
+        <!-- <summary>
+          Main grid divides the window into input panel (left) and queues (right).
+        </summary>-->
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="171*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- <summary>
+              INPUT PANEL: Contains TextBoxes and controls for entering new service requests.
+            </summary>-->
+            <StackPanel
+                Grid.RowSpan="3"
+                Grid.Column="0"
+                Margin="5">
+                <TextBlock Text="Client Name:" />
+                <TextBox Name="txtClientName" Margin="0,2" />
+
+                <TextBlock Text="Drone Model:" />
+                <TextBox Name="txtDroneModel" Margin="0,2" />
+
+                <TextBlock Text="Service Tag:" />
+                <xctk:IntegerUpDown
+                    Name="numServiceTag"
+                    Margin="0,2"
+                    Increment="10"
+                    IsEnabled="False"
+                    Maximum="900"
+                    Minimum="100" />
+
+                <TextBlock Text="Priority:" />
+                <StackPanel Margin="0,2" Orientation="Horizontal">
+                    <RadioButton
+                        Name="rbRegular"
+                        Checked="GetServicePriority"
+                        Content="Regular"
+                        GroupName="Priority"
+                        IsChecked="True" />
+                    <RadioButton
+                        Name="rbExpress"
+                        Margin="10,0,0,0"
+                        Checked="GetServicePriority"
+                        Content="Express"
+                        GroupName="Priority" />
+                </StackPanel>
+
+                <TextBlock Text="Service Problem:" />
+                <TextBox
+                    Name="txtProblem"
+                    Height="80"
+                    Margin="0,2"
+                    AcceptsReturn="True"
+                    TextWrapping="Wrap" />
+
+                <TextBlock Text="Service Cost:" />
+                <TextBox
+                    Name="txtCost"
+                    Margin="0,2"
+                    PreviewTextInput="ValidateServiceCost" />
+
+                <Button
+                    Name="btnAddNewItem"
+                    Margin="0,10,0,0"
+                    Click="AddNewItem"
+                    Content="Add New Item" />
+            </StackPanel>
+
+            <!-- <summary>
+              QUEUES & FINISHED: Displays three sections for Regular, Express, and Finished jobs.
+            </summary>-->
+            <Grid
+                Grid.RowSpan="3"
+                Grid.Column="1"
+                Margin="10,0,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="1.2*" />
+                </Grid.RowDefinitions>
+
+                <!-- <summary>
+                  Regular Service Queue: ListView with columns for Tag, Client, Model, Problem, Cost, Priority.
+                </summary>-->
+                <GroupBox Grid.Row="0" Header="Regular Service Queue">
+                    <ListView
+                        Name="lvRegularService"
+                        MouseDoubleClick="RegularService_Click"
+                        SelectionChanged="RegularSelectionChanged">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn
+                                    Width="60"
+                                    DisplayMemberBinding="{Binding ServiceTag}"
+                                    Header="Tag" />
+                                <GridViewColumn
+                                    Width="120"
+                                    DisplayMemberBinding="{Binding ClientName}"
+                                    Header="Client" />
+                                <GridViewColumn
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding DroneModel}"
+                                    Header="Model" />
+                                <GridViewColumn
+                                    Width="200"
+                                    DisplayMemberBinding="{Binding ServiceProblem}"
+                                    Header="Problem" />
+                                <GridViewColumn
+                                    Width="80"
+                                    DisplayMemberBinding="{Binding ServiceCost}"
+                                    Header="Cost" />
+                                <GridViewColumn
+                                    Width="80"
+                                    DisplayMemberBinding="{Binding ServicePriority}"
+                                    Header="Priority" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </GroupBox>
+                <WrapPanel
+                    Grid.Row="1"
+                    Margin="0,5"
+                    HorizontalAlignment="Right">
+                    <!-- <summary>Process Regular: Button to dequeue the selected Regular service into Finished.</summary> -->
+                    <Button
+                        Name="btnProcessRegular"
+                        Margin="5,0"
+                        Click="ProcessRegular"
+                        Content="Process Regular" />
+                </WrapPanel>
+
+                <!-- <summary>
+                  Express Service Queue: ListView similar to Regular but for Express jobs.
+                </summary>-->
+                <GroupBox
+                    Grid.Row="2"
+                    Margin="0,5"
+                    Header="Express Service Queue">
+                    <ListView
+                        Name="lvExpressService"
+                        MouseDoubleClick="ExpressService_Click"
+                        SelectionChanged="ExpressSelectionChanged">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn
+                                    Width="60"
+                                    DisplayMemberBinding="{Binding ServiceTag}"
+                                    Header="Tag" />
+                                <GridViewColumn
+                                    Width="120"
+                                    DisplayMemberBinding="{Binding ClientName}"
+                                    Header="Client" />
+                                <GridViewColumn
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding DroneModel}"
+                                    Header="Model" />
+                                <GridViewColumn
+                                    Width="200"
+                                    DisplayMemberBinding="{Binding ServiceProblem}"
+                                    Header="Problem" />
+                                <GridViewColumn
+                                    Width="80"
+                                    DisplayMemberBinding="{Binding ServiceCost}"
+                                    Header="Cost" />
+                                <GridViewColumn
+                                    Width="80"
+                                    DisplayMemberBinding="{Binding ServicePriority}"
+                                    Header="Priority" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </GroupBox>
+                <WrapPanel
+                    Grid.Row="3"
+                    Margin="0,5"
+                    HorizontalAlignment="Right">
+                    <!-- <summary>Process Express: Button to dequeue the selected Express service into Finished.</summary> -->
+                    <Button
+                        Name="btnProcessExpress"
+                        Margin="5,0"
+                        Click="ProcessExpress"
+                        Content="Process Express" />
+                </WrapPanel>
+
+                <!-- <summary>
+                  Finished Services: ListView showing all processed jobs, double-click to delete.
+                </summary>-->
+                <GroupBox
+                    Grid.Row="4"
+                    Margin="0,5"
+                    Header="Finished Services">
+                    <ListView Name="lvFinishedList" MouseDoubleClick="FinishedList_DoubleClick">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn
+                                    Width="60"
+                                    DisplayMemberBinding="{Binding ServiceTag}"
+                                    Header="Tag" />
+                                <GridViewColumn
+                                    Width="120"
+                                    DisplayMemberBinding="{Binding ClientName}"
+                                    Header="Client" />
+                                <GridViewColumn
+                                    Width="100"
+                                    DisplayMemberBinding="{Binding DroneModel}"
+                                    Header="Model" />
+                                <GridViewColumn
+                                    Width="200"
+                                    DisplayMemberBinding="{Binding ServiceProblem}"
+                                    Header="Problem" />
+                                <GridViewColumn
+                                    Width="80"
+                                    DisplayMemberBinding="{Binding ServiceCost}"
+                                    Header="Cost" />
+                                <GridViewColumn
+                                    Width="80"
+                                    DisplayMemberBinding="{Binding ServicePriority}"
+                                    Header="Priority" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

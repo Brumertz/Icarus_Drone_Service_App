@@ -1,6 +1,3 @@
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.csproj.AssemblyReference.cache
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\App.g.cs
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App_MarkupCompile.cache
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\Icarus_Drone_Service_App.exe
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\Icarus_Drone_Service_App.deps.json
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\Icarus_Drone_Service_App.runtimeconfig.json
@@ -23,10 +20,11 @@ C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Views\MainWindow.g.cs
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App_MarkupCompile.lref
-C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Views\MainWindow.baml
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.csproj.AssemblyReference.cache
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\MainWindow.baml
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\MainWindow.g.cs
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App_MarkupCompile.cache
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.g.resources
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.AssemblyInfoInputs.cache
@@ -39,3 +37,5 @@ C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.pdb
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.genruntimeconfig.cache
 C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\ref\Icarus_Drone_Service_App.dll
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\bin\Debug\net9.0-windows\Icarus_Drone_Service_App.xml
+C:\Users\BrumertzTafe\Desktop\Icarus_Drone_Service_App\Icarus_Drone_Service_App\Icarus_Drone_Service_App\obj\Debug\net9.0-windows\Icarus_Drone_Service_App.xml

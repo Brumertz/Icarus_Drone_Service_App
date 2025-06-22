@@ -1,0 +1,18 @@
+{
+  "Icarus_Drone_Service_App": "Icarus_Drone_Service_App.yml",
+  "Icarus_Drone_Service_App.App": "Icarus_Drone_Service_App.App.yml",
+  "Icarus_Drone_Service_App.App.InitializeComponent": "Icarus_Drone_Service_App.App.yml",
+  "Icarus_Drone_Service_App.App.Main": "Icarus_Drone_Service_App.App.yml",
+  "Icarus_Drone_Service_App.MainWindow": "Icarus_Drone_Service_App.MainWindow.yml",
+  "Icarus_Drone_Service_App.MainWindow.#ctor": "Icarus_Drone_Service_App.MainWindow.yml",
+  "Icarus_Drone_Service_App.MainWindow.InitializeComponent": "Icarus_Drone_Service_App.MainWindow.yml",
+  "Icarus_Drone_Service_App.Models": "Icarus_Drone_Service_App.Models.yml",
+  "Icarus_Drone_Service_App.Models.Drone": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.ClientName": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.Display": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.DroneModel": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.ServiceCost": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.ServicePriority": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.ServiceProblem": "Icarus_Drone_Service_App.Models.Drone.yml",
+  "Icarus_Drone_Service_App.Models.Drone.ServiceTag": "Icarus_Drone_Service_App.Models.Drone.yml"
+}

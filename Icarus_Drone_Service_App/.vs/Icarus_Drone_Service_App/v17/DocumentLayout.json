@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\models\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\models\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|c:\\users\\brumertztafe\\desktop\\icarus_drone_service_app\\icarus_drone_service_app\\icarus_drone_service_app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EEE73FB-6B29-49EC-AB6A-50EE7A4CC3D0}|Icarus_Drone_Service_App\\Icarus_Drone_Service_App.csproj|solutionrelative:icarus_drone_service_app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1201,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,52 +38,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "Icarus_Drone_Service_App\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:15:09.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Helpers\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\Helpers\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Helpers\\RelayCommand.cs",
-              "RelativeToolTip": "Icarus_Drone_Service_App\\Helpers\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:14:49.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Drone.cs",
               "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Models\\Drone.cs",
               "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\Models\\Drone.cs",
               "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Models\\Drone.cs",
               "RelativeToolTip": "Icarus_Drone_Service_App\\Models\\Drone.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAuwFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:11:58.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T14:11:58.971Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Icarus_Drone_Service_App\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAcwJUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Icarus_Drone_Service_App\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T13:46:47.684Z",
               "EditorCaption": ""
@@ -100,13 +65,12 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Icarus_Drone_Service_App\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Icarus_Drone_Service_App\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\BrumertzTafe\\Desktop\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\Icarus_Drone_Service_App\\MainWindow.xaml",
+              "RelativeToolTip": "Icarus_Drone_Service_App\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-02T13:18:09.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:18:09.839Z"
             }
           ]
         }

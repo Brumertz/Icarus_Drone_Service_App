@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Icarus_Drone_Service_App.Models
+  commentId: N:Icarus_Drone_Service_App.Models
+  id: Icarus_Drone_Service_App.Models
+  children:
+  - Icarus_Drone_Service_App.Models.Drone
+  langs:
+  - csharp
+  - vb
+  name: Icarus_Drone_Service_App.Models
+  nameWithType: Icarus_Drone_Service_App.Models
+  fullName: Icarus_Drone_Service_App.Models
+  type: Namespace
+  assemblies:
+  - Icarus_Drone_Service_App
+references:
+- uid: Icarus_Drone_Service_App.Models.Drone
+  commentId: T:Icarus_Drone_Service_App.Models.Drone
+  href: Icarus_Drone_Service_App.Models.Drone.html
+  name: Drone
+  nameWithType: Drone
+  fullName: Icarus_Drone_Service_App.Models.Drone

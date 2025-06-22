@@ -1,0 +1,132 @@
+{
+  "source_base_path": "C:/Users/BrumertzTafe/Desktop/Icarus_Drone_Service_App/Icarus_Drone_Service_App/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Icarus_Drone_Service_App.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Icarus_Drone_Service_App.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Icarus_Drone_Service_App.App",
+      "Summary": "<p sourcefile=\"api/Icarus_Drone_Service_App.App.yml\" sourcestartlinenumber=\"1\">Interaction logic for App.xaml</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Icarus_Drone_Service_App.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Icarus_Drone_Service_App.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Icarus_Drone_Service_App.MainWindow",
+      "Summary": "<p sourcefile=\"api/Icarus_Drone_Service_App.MainWindow.yml\" sourcestartlinenumber=\"1\">Interaction logic for MainWindow.xaml.\nHosts the UI for adding, editing, processing and removing drone service jobs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Icarus_Drone_Service_App.Models.Drone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Icarus_Drone_Service_App.Models.Drone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Icarus_Drone_Service_App.Models.Drone",
+      "Summary": "<p sourcefile=\"api/Icarus_Drone_Service_App.Models.Drone.yml\" sourcestartlinenumber=\"1\">Represents a single drone service request, including client,\nmodel, tag, problem description, cost, and priority.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Icarus_Drone_Service_App.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Icarus_Drone_Service_App.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Icarus_Drone_Service_App.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Icarus_Drone_Service_App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Icarus_Drone_Service_App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Icarus_Drone_Service_App",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

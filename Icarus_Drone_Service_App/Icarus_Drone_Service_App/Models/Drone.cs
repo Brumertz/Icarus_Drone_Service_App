@@ -4,7 +4,8 @@ using System.Globalization;
 namespace Icarus_Drone_Service_App.Models
 {
     /// <summary>
-    /// Represents a single drone service request with client, model, tag, problem, cost, and priority.
+    /// Represents a single drone service request, including client,
+    /// model, tag, problem description, cost, and priority.
     /// </summary>
     public class Drone
     {
@@ -16,7 +17,7 @@ namespace Icarus_Drone_Service_App.Models
         private string? _servicePriority;
 
         /// <summary>
-        /// Gets or sets the client’s name. Returned value is formatted in Title Case.
+        /// Gets or sets the client’s name, formatted as Title Case.
         /// </summary>
         public string ClientName
         {
@@ -27,14 +28,14 @@ namespace Icarus_Drone_Service_App.Models
         /// <summary>
         /// Gets or sets the drone model identifier.
         /// </summary>
-        public string? DroneModel
+        public string DroneModel
         {
-            get => _droneModel;
+            get => _droneModel ?? string.Empty;
             set => _droneModel = value?.Trim() ?? string.Empty;
         }
 
         /// <summary>
-        /// Gets or sets the numeric service tag (100 to 900).
+        /// Gets or sets the numeric service tag (100–900).
         /// </summary>
         public int ServiceTag
         {
@@ -43,7 +44,7 @@ namespace Icarus_Drone_Service_App.Models
         }
 
         /// <summary>
-        /// Gets or sets the problem description. Returned value is formatted in Sentence Case.
+        /// Gets or sets the problem description, formatted in Sentence Case.
         /// </summary>
         public string ServiceProblem
         {
@@ -58,7 +59,7 @@ namespace Icarus_Drone_Service_App.Models
         }
 
         /// <summary>
-        /// Gets or sets the cost of service, rounded to two decimal places.
+        /// Gets or sets the service cost, automatically rounded to two decimals.
         /// </summary>
         public double ServiceCost
         {
@@ -67,18 +68,18 @@ namespace Icarus_Drone_Service_App.Models
         }
 
         /// <summary>
-        /// Gets or sets the priority of service: “Regular” or “Express”.
+        /// Gets or sets the priority: “Regular” or “Express”.
         /// </summary>
-        public string? ServicePriority
+        public string ServicePriority
         {
-            get => _servicePriority;
+            get => _servicePriority ?? string.Empty;
             set => _servicePriority = value;
         }
 
         /// <summary>
-        /// Returns a formatted string containing all properties (Tag, Client, Model, Problem, Cost, Priority).
+        /// Returns a single-line string summarizing all fields of this Drone.
         /// </summary>
-        /// <returns>A single‐line representation of the Drone’s data.</returns>
+        /// <returns>A formatted string containing Tag, Client, Model, Problem, Cost, and Priority.</returns>
         public string Display() =>
             $"Tag: {ServiceTag}, Client: {ClientName}, Model: {DroneModel}, " +
             $"Problem: {ServiceProblem}, Cost: ${ServiceCost:F2}, Priority: {ServicePriority}";

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Icarus_Drone_Service_App
+  commentId: N:Icarus_Drone_Service_App
+  id: Icarus_Drone_Service_App
+  children:
+  - Icarus_Drone_Service_App.App
+  - Icarus_Drone_Service_App.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: Icarus_Drone_Service_App
+  nameWithType: Icarus_Drone_Service_App
+  fullName: Icarus_Drone_Service_App
+  type: Namespace
+  assemblies:
+  - Icarus_Drone_Service_App
+references:
+- uid: Icarus_Drone_Service_App.App
+  commentId: T:Icarus_Drone_Service_App.App
+  href: Icarus_Drone_Service_App.App.html
+  name: App
+  nameWithType: App
+  fullName: Icarus_Drone_Service_App.App
+- uid: Icarus_Drone_Service_App.MainWindow
+  commentId: T:Icarus_Drone_Service_App.MainWindow
+  href: Icarus_Drone_Service_App.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: Icarus_Drone_Service_App.MainWindow

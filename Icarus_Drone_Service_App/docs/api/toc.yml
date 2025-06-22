@@ -1,0 +1,20 @@
+### YamlMime:TableOfContent
+items:
+- uid: Icarus_Drone_Service_App
+  name: Icarus_Drone_Service_App
+  type: Namespace
+  items:
+  - uid: Icarus_Drone_Service_App.App
+    name: App
+    type: Class
+  - uid: Icarus_Drone_Service_App.MainWindow
+    name: MainWindow
+    type: Class
+- uid: Icarus_Drone_Service_App.Models
+  name: Icarus_Drone_Service_App.Models
+  type: Namespace
+  items:
+  - uid: Icarus_Drone_Service_App.Models.Drone
+    name: Drone
+    type: Class
+memberLayout: SamePage
