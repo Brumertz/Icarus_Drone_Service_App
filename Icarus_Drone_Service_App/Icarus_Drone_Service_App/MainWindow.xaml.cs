@@ -306,7 +306,7 @@ namespace Icarus_Drone_Service_App
             var res = MessageBox.Show(
                 $"Are you sure you want to remove Tag {d.ServiceTag}?",
                 "Confirm Delete",
-                MessageBoxButton.YesNo,
+                    MessageBoxButton.YesNo,
                 MessageBoxImage.Question);
             if (res == MessageBoxResult.Yes)
             {
@@ -338,6 +338,11 @@ namespace Icarus_Drone_Service_App
             var temp = queue.Where(x => x != target).ToList();
             queue.Clear();
             temp.ForEach(x => queue.Enqueue(x));
+        }
+
+        private void txtCost_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -85,7 +85,8 @@
                 <TextBox
                     Name="txtCost"
                     Margin="0,2"
-                    PreviewTextInput="ValidateServiceCost" />
+                    PreviewTextInput="ValidateServiceCost"
+                    TextChanged="txtCost_TextChanged" />
 
                 <Button
                     Name="btnAddNewItem"
